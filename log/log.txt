@@ -1,0 +1,6 @@
+2019-04-18 12:27:35,664 - CRITICAL: Logger: <module>() test LogCritical
+2019-04-18 12:27:35,665 - ERROR: Logger: <module>() test LogError
+2019-04-18 12:27:35,667 - WARNING: Logger: <module>() test Logwarning
+2019-04-18 12:27:35,669 - INFO: Logger: <module>() test LogInfo
+2019-04-18 12:27:35,670 - DEBUG: Logger: <module>() test LogDebug
+2019-04-18 12:39:25,221 - CRITICAL: logger: test_log_critical() test log_critical
