@@ -18,6 +18,7 @@
         func() # 先输出 'calling func\n' 再输出 'func'
 
     所以说, 当使用修饰器的时候, 是先call一遍修饰器函数么？他们之间的调用关系是怎样的呢？
+ref: https://foofish.net/python-decorator.html
 """
 
 # <editor-fold desc="0. py 函数可以作为参数进行传递">
@@ -225,7 +226,7 @@ print(foo.__name__)
 del foo, using_time
 # </editor-fold>
 
-# <editor-fold desc="同时定义多个装饰器">
+# <editor-fold desc="8. 同时定义多个装饰器">
 """
 一个函数可以同时定义多个装饰器, 调用顺序为从里到外.
 @a              |  f = a(b(c(f)))
